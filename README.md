@@ -3,8 +3,8 @@ SpringBoot app using Java for managing the candidates' database, consisting of t
 technologies and also connection between them with a rating and a note. The database used is in memory H2.
 
 ### Production links:
-> [Swagger](https://databaze-uchazecu-production-5477.up.railway.app/swagger-ui/index.html)  
-> [Actuator](https://databaze-uchazecu-production-5477.up.railway.app/actuator)
+> [Swagger](https://db-uchazeci-production.up.railway.app/swagger-ui/index.html)  
+> [Actuator](https://db-uchazeci-production.up.railway.app/actuator)
 
 ### Candidates management:  
 - list
@@ -24,6 +24,7 @@ In the name of learning new stuff, I have also added following:
 - Content negotiation
 - Actuator
 
-Although it works locally, I wasn't able to successfully execute queries directly from Swagger on the Railway production.
+Although it works locally, I wasn't able to successfully execute queries directly from Swagger on the Railway 
+production due to Cross-Origin Resource Sharing.
 
 
